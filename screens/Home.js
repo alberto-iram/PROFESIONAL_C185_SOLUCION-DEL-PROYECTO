@@ -22,15 +22,14 @@ export default class Home extends Component {
             source={require("../assets/appIcon.png")}
             style={styles.appIcon}
           />
-          <Text style={styles.appName}>Look Me....</Text>
+          <Text style={styles.appName}>Mira aquí...</Text>
         </View>
         <View style={styles.middleContainer}>
           <View style={styles.contentContainer}>
             <View style={styles.textContainer}>
               <Text style={styles.contentText}>
-                Look Me is the best photo filter app for pic with the funny
-                camera effects. With the stunning live photo filters directly on
-                your face.
+                Mira aquí es la mejor app de filtros para fotos con efectos divertidos. 
+                Estos filtros se ven directamente en tu rostro.
               </Text>
             </View>
             <View style={styles.imageContainer}>
@@ -60,7 +59,7 @@ export default class Home extends Component {
             style={styles.button}
             onPress={() => this.props.navigation.navigate("Main")}
           >
-            <Text style={styles.buttonText}>Try Now!</Text>
+            <Text style={styles.buttonText}>¡Probar ahora!</Text>
           </TouchableOpacity>
         </View>
       </View>
