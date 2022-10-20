@@ -1,19 +1,19 @@
-Arguments: 
+Argumentos: 
   /usr/local/bin/node /Users/rocksvishu/.yarn/bin/yarn.js add expo-face-detecto
 
-PATH: 
+RUTA: 
   /usr/local/opt/ruby/bin:/Users/rocksvishu/.yarn/bin:/Users/rocksvishu/.config/yarn/global/node_modules/.bin:/tools/bin:/tools:/platform-tools:”/Library/TeX/texbin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Apple/usr/bin”
 
-Yarn version: 
+Versión de Yarn: 
   1.22.5
 
-Node version: 
+Versión Node: 
   14.16.1
 
-Platform: 
+Platforma: 
   darwin x64
 
-Trace: 
+Trazo: 
   Error: https://registry.yarnpkg.com/expo-face-detecto: Not found
       at Request.params.callback [as _callback] (/Users/rocksvishu/.yarn/lib/cli.js:66988:18)
       at Request.self.callback (/Users/rocksvishu/.yarn/lib/cli.js:140749:22)
@@ -26,7 +26,7 @@ Trace:
       at endReadableNT (internal/streams/readable.js:1327:12)
       at processTicksAndRejections (internal/process/task_queues.js:80:21)
 
-npm manifest: 
+Manifesto npm: 
   {
     "main": "node_modules/expo/AppEntry.js",
     "scripts": {
@@ -54,7 +54,7 @@ npm manifest:
     "private": true
   }
 
-yarn manifest: 
+Manifesto yarn: 
   No manifest
 
 Lockfile: 
